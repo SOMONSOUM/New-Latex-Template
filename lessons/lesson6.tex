@@ -54,22 +54,67 @@
 	\item \emph{\kml ដែនម៉ាញេទិចឯកសណ្ឋាន}
 \end{enumerate}
 \section{ដែនម៉ាញេទិចនៃផែនដី}
+\quad ជុំវិញដែនដីមានដែនម៉ាញេទិចមួយដែរ ហេតុនេះហើយទើបទ្រនិចត្រីវិស័យដែលជា ម្ជុលមេដែក ចង្អុលទៅទិសខាងជើងរហូត។ នៅក្នុងផែនដី មានស្នូលមេដែកធម្មជាតិ $\ce{Fe3O4}$ ដូចនេះលំហជុំវិញផែនដីត្រូវមានដែនម៉ាញេទិច។
 \begin{figure}[H]
 	\begin{subfigure}{.5\textwidth}
 		\centering
 		\begin{tikzpicture}
 			\node at (0,0) {\includegraphics[scale=.25]{earth}};
+			\node[rotate=210] at (-3.85,1) {\includegraphics[scale=.2]{magnetic-need}};
+			\draw[<->, >=stealth] (.5,2.55) to (1,2.45);
+			\node[rotate=-10] at (.9,2.8) {$11.5^\circ$};
 		\end{tikzpicture}
 		\caption{ដែនម៉ាញេទិចនៃផែនដី}
 	\end{subfigure}
 	\begin{subfigure}{.5\textwidth}
 		\centering
 		\begin{tikzpicture}
-		\node at (0,0) {\includegraphics[scale=.25]{earth}};
+			\coordinate[label=right:$O$] (O) at (4,4.5);
+			\coordinate[label=below:{$\vec{B}$}] (B) at (3,3.1);
+			\coordinate[label=below left:{$\vec{B}_{h}$}] (Bh) at (2.9,4.31);
+			\coordinate[label=above:{\text{ខ្សែមិនរមូល}}] (D) at (4,6);
+			\coordinate[label=below:$G$] (G) at (-.5,4.75);
+			\coordinate[label=below right:$M$] (M) at (-.5,3.75);
+			\coordinate[label=right:{$\vec{B}_{v}$}] (Bv) at (4,3.15);
+			\draw[-] (1,4) to (O) to (4,4.5) to (4,1) to (1,.5) to cycle;
+			\draw[-] (4,4.5) to (.5,4.7) to (.5,1) to (4,1);
+			\draw[->] (O) to (B);
+			\draw[->] (O) to (Bh);
+			\draw[->] (O) to (Bv);
+			\draw[dashed] (Bh) to (B) to (Bv);
+			\draw[->,dashed] (O) to (G) node[above] at (G) {\text{ជើងតាមភូមិសាស្រ្ត}};
+			\draw[->,dashed, text=blue] (O) to (M) node[left] at (M) {\text{ជើងម៉ាញេទិច}};
+			\node[rotate=11.5] at (O) {\includegraphics[scale=.2]{magnetic-need}};
+			\draw[-] (O) to (D);
+			\draw pic["$\si{D}$", >=stealth, draw=red, text=magenta, <->, angle eccentricity=1.2, angle radius=2cm] {angle=G--O--M};
+			\draw pic["$\si{H}$", >=stealth, draw=red, text=magenta, <->, angle eccentricity=1.5, angle radius=.6cm] {angle=M--O--B};
 		\end{tikzpicture}
-		\caption{ដែនម៉ាញេទិចនៃផែនដី}
+		\caption{កំប៉ូសង់នៃម៉ាញេទិចផែនដី}
 	\end{subfigure}
 \end{figure}
+	\begin{itemize}
+		\item ប្លង់បណ្តោយម៉ាញេទិច $\left(M\right)$ ជាប្លង់ឈរ ដែលក្នុងនោះមានវ៉ិចទ័រអាំងឌុចស្យុង ម៉ាញេទិច $\vec{B}$។
+		\item ប្លង់បណ្តោយភូមិសាស្រ្ត $\left(G\right)$ ជាប្លង់ឈរ ដែលកាត់តាមប៉ូលជើង និងប៉ូលត្បូងរបស់ផែនដី។
+	\end{itemize}
+	\quad ជាទូទៅប្លង់ទាំងពីរត្រង់កន្លែងណាមួយមិនត្រួតស៊ីគ្នាទេ គឹវាខុសគ្នាបន្តិចដែលប្លង់ទាំងពីរបង្កើតបានមុំមួយ $\si{D}$ ហៅថាមុំ ដេគ្លីនេសុង ហើយម្ចុលមេដែកមិនស្ថិតក្នុងប្លង់ដេកទេ ដែលគេអាចបំបែកអាំងឌុចស្យុងម៉ាញេទិចផែនដីជាពីរ គឺអាំងឌុចស្យុងផ្គុំដេក $\vec{B}_{h}$ ឬ $\vec{B}_{o}$ និងអាំងឌុចស្យុងផ្គុំឈរ $\vec{B}_{v}$។
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\coordinate[label=right:{$M$}] (M) at (0,0);
+			\coordinate[label=left:{$\vec{B}_{o}$}] (Bh) at (-2,0);
+			\coordinate[label=right:{$\vec{B}_{v}$}] (Bv) at (0,-2);
+			\coordinate[label=left:{$\vec{B}$}] (B) at (-2,-2);
+			\draw[->] (M) to (Bh);
+			\draw[->] (M) to (Bv);
+			\draw[->] (M) to (B);
+			\draw[dashed] (Bh) to (B) to (Bv);
+		\end{tikzpicture}
+		\caption{កំប៉ូសង់នៃម៉ាញេទិចផែនដី}
+	\end{figure}
+	\begin{align*}
+		\text{ដែល}\quad & \quad \vec{B}=\vec{B}_{o}+\vec{B}_{v}\\
+		\text{ជាម៉ូឌុល}\quad &\quad B^{2}=B^{2}_{o}+B^{2}_{v}\quad \text{ឬ}\quad B=\sqrt{B^{2}_{o}+B^{2}_{v}}~\left(B_{o}=B_{h}=2\times10^{-5}\si{\tesla}\right)
+	\end{align*}
 \section{ដែនម៉ាញេទិចនៃចរន្តអគ្គិសនី}
 \subsection{ដែននៃចរន្តត្រង់}
 \begin{figure}[H]
@@ -157,14 +202,14 @@
 		\quad &\quad N:\text{ចំនួនស្ពៀនៃបូប៊ីនសំប៉ែត}\\
 		\quad &\quad \mu_{0}=4\pi\times10^{-7}\si{\tesla\cdot\metre/\ampere}~\text{ជំរាបដែនដែនម៉ាញេទិចក្នុងខ្យល់ឬសុញ្ញាកាស}
 	\end{flalign*}
-	\begin{remark}
-		ករណីមជ្ឈដ្ឋានមិនមែនជាខ្យល់ ឬសុញ្ញកាសៈ $B_{r}=\frac{\mu NI}{2R} $ ឬ $B_{r}=\frac{\mu_{0}\mu_{r}NI}{2R}$
-		\begin{flalign*}
-		\text{ដែល}\quad &\quad \mu=\mu_{0}\times\mu_{r}\\
-		\quad &\quad \mu_{r}\quad \text{ជំរាបដែនម៉ាញេទិចធៀបណាមួយ}
-		\end{flalign*} 
-	\end{remark}
 \end{enumerate}
+\begin{remark}
+	ករណីមជ្ឈដ្ឋានមិនមែនជាខ្យល់ ឬសុញ្ញកាសៈ $B_{r}=\frac{\mu NI}{2R} $ ឬ $B_{r}=\frac{\mu_{0}\mu_{r}NI}{2R}$
+	\begin{flalign*}
+	\text{ដែល}\quad &\quad \mu=\mu_{0}\times\mu_{r}\\
+	\quad &\quad \mu_{r}\quad \text{ជំរាបដែនម៉ាញេទិចធៀបណាមួយ}
+	\end{flalign*} 
+\end{remark}
 \begin{example}
 	\begin{enumerate}
 		\item ខ្សែចម្លងវង់មួយមានផ្ចិត $O$ មានកាំ $R=10\si{\centi\metre}$។ ឆ្លងកាត់ដោយចរន្តដែលមានអាំងតង់ស៊ីតេ $10A$។ គណនាតម្លៃអាំងឌុចស្យុងម៉ាញេទិចត្រង់ចំណុច
