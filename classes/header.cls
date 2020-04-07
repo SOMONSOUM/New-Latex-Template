@@ -34,7 +34,8 @@
 \newcommand{\kbk}{\fontspec[Scale = 0.8333333334, Script=Khmer]{Khmer OS Bokor}\selectfont}
 \newcommand{\kb}{\fontspec[Scale = 0.8333333334, Script=Khmer]{Khmer OS Battambang}\selectfont}
 \newcommand{\mc}{\fontspec{Monotype Corsiva}\selectfont}
-\newcommand{\en}{\fontspec{Times New Roman}\selectfont}
+%\newcommand{\en}{\fontspec{Times New Roman}\selectfont}
+\newcommand{\en}{\fontspec{Abyssinica SIL}\selectfont}
 \newcommand{\enb}{\fontspec[Script=Khmer]{Quicksand Medium}}
 % khmer number
 \def\khmer#1{\expandafter\@khmer\csname c@#1\endcsname}

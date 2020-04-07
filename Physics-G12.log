@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2019.9.8)  30 DEC 2019 10:40
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2019.9.8)  7 APR 2020 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**sample.tex
-(./sample.tex
+**Physics-G12.tex
+(./Physics-G12.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (./classes/fancy.cls
@@ -14,8 +14,8 @@ LaTeX Warning: You have requested document class `classes/fancy',
 Document Class: header 2019/12/28
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -590,25 +590,25 @@ LaTeX Info: Redefining \- on input line 2746.
 .................................................
 . fontspec info: "no-scripts"
 . 
-. Font Khmer Vanara does not contain any OpenType `Script' information.
+. Font Antioch Text does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_KhmerVanara_int=\count143
+\g__fontspec_family_AntiochText_int=\count143
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'KhmerVanara(0)' created for font 'Khmer Vanara' with options
+. Font family 'AntiochText(0)' created for font 'Antioch Text' with options
 . [Ligatures=TeX,Ligatures=TeX,AutoFakeBold=0.5,AutoFakeSlant=0.25].
 . 
 . This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.: <->"Khmer
-. Vanara/OT:mapping=tex-text;mapping=tex-text;"
+. - 'normal' (m/n) with NFSS spec.: <->"Antioch
+. Text/OT:mapping=tex-text;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
-. <->"Khmer Vanara/OT:mapping=tex-text;mapping=tex-text;embolden=0.5;"
+. <->"Antioch Text/OT:mapping=tex-text;mapping=tex-text;embolden=0.5;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
-. spec.: <->"Khmer Vanara/OT:mapping=tex-text;mapping=tex-text;slant=0.25;"
+. spec.: <->"Antioch Text/OT:mapping=tex-text;mapping=tex-text;slant=0.25;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
-. with NFSS spec.: <->"Khmer
-. Vanara/OT:mapping=tex-text;mapping=tex-text;embolden=0.5;slant=0.25;"
+. with NFSS spec.: <->"Antioch
+. Text/OT:mapping=tex-text;mapping=tex-text;embolden=0.5;slant=0.25;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 .................................................
@@ -1263,9 +1263,9 @@ tly
 )
 \Hy@SectionHShift=\skip62
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 429.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 430.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 429.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 430.
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
@@ -1462,12 +1462,12 @@ File: tasks.cfg 2014/07/29 v0.10a tasks instances
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'Enumerate' with sig. 'O{}D(){1}' on line 524.
+. Defining environment 'Enumerate' with sig. 'O{}D(){1}' on line 525.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'Itemize' with sig. 'O{}D(){1}' on line 534.
+. Defining environment 'Itemize' with sig. 'O{}D(){1}' on line 535.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
@@ -1690,78 +1690,412 @@ tex) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-lines.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-sectors.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-angles.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-protractor.tex))
-(./sample.aux)
-\openout1 = `sample.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2016/03/01 v2.6q A comprehensive (SI) units package
+\l__siunitx_tmp_box=\box121
+\l__siunitx_tmp_dim=\dimen337
+\l__siunitx_tmp_int=\count326
+\l__siunitx_number_mantissa_length_int=\count327
+\l__siunitx_number_uncert_length_int=\count328
+\l__siunitx_round_int=\count329
+\l__siunitx_process_decimal_int=\count330
+\l__siunitx_process_uncertainty_int=\count331
+\l__siunitx_process_fixed_int=\count332
+\l__siunitx_process_integer_min_int=\count333
+\l__siunitx_process_precision_int=\count334
+\l__siunitx_group_min_int=\count335
+\l__siunitx_angle_marker_box=\box122
+\l__siunitx_angle_unit_box=\box123
+\l__siunitx_angle_marker_dim=\dimen338
+\l__siunitx_angle_unit_dim=\dimen339
+\l__siunitx_unit_int=\count336
+\l__siunitx_unit_denominator_int=\count337
+\l__siunitx_unit_numerator_int=\count338
+\l__siunitx_unit_prefix_int=\count339
+\l__siunitx_unit_prefix_base_int=\count340
+\l__siunitx_unit_prefix_gram_int=\count341
+\l__siunitx_number_product_int=\count342
+\c__siunitx_one_fill_skip=\skip78
+\l__siunitx_table_unit_align_skip=\skip79
+\l__siunitx_table_exponent_dim=\dimen340
+\l__siunitx_table_integer_dim=\dimen341
+\l__siunitx_table_mantissa_dim=\dimen342
+\l__siunitx_table_marker_dim=\dimen343
+\l__siunitx_table_result_dim=\dimen344
+\l__siunitx_table_uncert_dim=\dimen345
+\l__siunitx_table_fill_pre_dim=\dimen346
+\l__siunitx_table_fill_post_dim=\dimen347
+\l__siunitx_table_fill_mid_dim=\dimen348
+\l__siunitx_table_pre_box=\box124
+\l__siunitx_table_post_box=\box125
+\l__siunitx_table_mantissa_box=\box126
+\l__siunitx_table_result_box=\box127
+\l__siunitx_table_number_align_skip=\skip80
+\l__siunitx_table_text_align_skip=\skip81
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7218.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7221.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7224.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7227.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7230.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7236.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7251.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7260.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7269.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7278.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7290.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7302.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7314.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7317.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7332.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7344.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7391.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_numrange:w with sig. 'omm' on line
+. 7393.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7395.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7397.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIrange:w with sig. 'ommm' on line
+. 7399.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7400.
+.................................................
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 2.
-LaTeX Font Info:    Try loading font information for OML+npxmi on input line 2.
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
 
- (/usr/share/texlive/texmf-dist/tex/latex/newpx/omlnpxmi.fd
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-
+mappings.tex))) (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2016/02/07 v4.04 for typesetting chemical formulae
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3regex.sty
+Package: l3regex 2016/01/19 v6377 L3 Experimental regular expressions
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.sty
+Package: l3tl-build 2016/01/19 v6377 L3 Experimental token list construction
+\l__tl_build_start_index_int=\count343
+\l__tl_build_index_int=\count344
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysis.sty
+Package: l3tl-analysis 2015/11/09 v6244 L3 Experimental token lists analysis
+\l__tl_analysis_normal_int=\count345
+\l__tl_analysis_index_int=\count346
+\l__tl_analysis_nesting_int=\count347
+\l__tl_analysis_type_int=\count348
+) (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
+Package: l3flag 2016/01/19 v6377 L3 Experimental flags
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3str-convert.sty
+Package: l3str-convert 2015/09/26 v6106 L3 Experimental string encoding convers
+ions
+\l__str_internal_int=\count349
+)
+\l__regex_internal_a_int=\count350
+\l__regex_internal_b_int=\count351
+\l__regex_internal_c_int=\count352
+\l__regex_balance_int=\count353
+\l__regex_group_level_int=\count354
+\l__regex_mode_int=\count355
+\l__regex_catcodes_int=\count356
+\l__regex_default_catcodes_int=\count357
+\c__regex_catcode_L_int=\count358
+\c__regex_catcode_O_int=\count359
+\c__regex_catcode_A_int=\count360
+\c__regex_all_catcodes_int=\count361
+\l__regex_show_lines_int=\count362
+\l__regex_min_state_int=\count363
+\l__regex_max_state_int=\count364
+\l__regex_left_state_int=\count365
+\l__regex_right_state_int=\count366
+\l__regex_capturing_group_int=\count367
+\l__regex_min_pos_int=\count368
+\l__regex_max_pos_int=\count369
+\l__regex_current_pos_int=\count370
+\l__regex_start_pos_int=\count371
+\l__regex_success_pos_int=\count372
+\l__regex_current_char_int=\count373
+\l__regex_current_catcode_int=\count374
+\l__regex_last_char_int=\count375
+\l__regex_case_changed_char_int=\count376
+\l__regex_current_state_int=\count377
+\l__regex_step_int=\count378
+\l__regex_min_active_int=\count379
+\l__regex_max_active_int=\count380
+\l__regex_replacement_csnames_int=\count381
+\l__regex_match_count_int=\count382
+\l__regex_submatch_int=\count383
+\l__regex_zeroth_submatch_int=\count384
+) (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+Package: chemgreek 2016/02/10 v1.0e interfaceforuprightgreeklettersforuseinchem
+istry (CN)
+\l__chemgreek_tmpa_int=\count385
+\g__chemgreek_tmpa_int=\count386
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmapping with sig. 'O{}mm' on line 336.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmapping with sig. 'O{}mm' on line 339.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmapping with sig. 'O{}mm' on line 342.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmappingalias with sig. 'mm' on line 347.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmappingalias with sig. 'mm' on line 350.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmappingalias with sig. 'mm' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \changechemgreeksymbol with sig. 'mmmm' on line 383.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chemgreekmappingsymbol with sig. 'mm' on line 477.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \activatechemgreekmapping with sig. 'sm' on line 486.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \selectchemgreekmapping with sig. 'm' on line 491.
+.................................................
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count387
+\__mhchem_arrow_extPgfLength_skip=\skip82
+\mhchem@minispace@tmp=\skip83
+\mhchem@minibackspace@tmp=\skip84
+\mhchem@bondwidth=\skip85
+\mhchem@bondheight=\skip86
+\mhchem@smallbondwidth@tmpA=\skip87
+\mhchem@smallbondwidth@tmpB=\skip88
+\mhchem@smallbondwidth=\skip89
+\mhchem@bondtmp@minussidebearingleft=\skip90
+\mhchem@bondtmp@minussidebearingright=\skip91
+\l__mhchem_option_version_int=\count388
+\mhchem@option@minusmathsidebearingleft=\dimen349
+\mhchem@option@minusmathsidebearingright=\dimen350
+\mhchem@option@minustextsidebearingleft=\dimen351
+\mhchem@option@minustextsidebearingright=\dimen352
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshadings.code.tex
+File: tikzlibraryshadings.code.tex 2008/10/29 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryshadings.cod
+e.tex
+File: pgflibraryshadings.code.tex 2008/10/29 v3.0.1a (rcs-revision 1.2)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.shapes.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.shapes.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.text.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.text.code.tex
+\pgf@lib@dec@text@box=\box128
+)
+\tikz@lib@dec@te@box=\box129
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2008/01/13 v3.0.1a (rcs-revision 1.3)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
+))) (./Physics-G12.aux)
+\openout1 = `Physics-G12.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 12.
+LaTeX Font Info:    Try loading font information for OML+npxmi on input line 12
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/npxsy/m/n on input line 2.
-LaTeX Font Info:    Try loading font information for OMS+npxsy on input line 2.
-
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/npxsy/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for OMS+npxsy on input line 12
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newpx/omsnpxsy.fd
 File: omsnpxsy.fd 2013/03/24 Fontinst v1.933 font definitions for OMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 2.
-LaTeX Font Info:    Try loading font information for U+npxexa on input line 2.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for U+npxexa on input line 12.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 2.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 2.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 12.
 
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
-* paper: a5paper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(28.45274pt, 364.1953pt, 28.45274pt)
-* v-part:(T,H,B)=(42.67912pt, 512.14963pt, 42.67912pt)
-* \paperwidth=421.10078pt
-* \paperheight=597.50787pt
-* \textwidth=364.1953pt
-* \textheight=512.14963pt
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=759.6886pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-61.46466pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=51.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1772,8 +2106,8 @@ LaTeX Font Info:    ... okay on input line 2.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box121
-Package hyperref Info: Link coloring OFF on input line 2.
+\AtBeginShipoutBox=\box130
+Package hyperref Info: Link coloring OFF on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1781,15 +2115,58 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count326
+\c@section@level=\count389
 )
-LaTeX Info: Redefining \ref on input line 2.
-LaTeX Info: Redefining \pageref on input line 2.
-LaTeX Info: Redefining \nameref on input line 2.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(./sample.toc
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
+ic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
+)
+.................................................
+. chemgreek info: "mapping-activated"
+. 
+. Activating mapping `fontspec' on line 12.
+.................................................
+\c__siunitx_mathsf_int=\count390
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+npxmia on input line 12.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxmia.fd
+File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
+)
+LaTeX Font Info:    Try loading font information for U+npxsym on input line 12.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxsym.fd
+File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
+)
+LaTeX Font Info:    Try loading font information for U+npxsyc on input line 12.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxsyc.fd
+File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
+)
+\c__siunitx_mathtt_int=\count391
+ (./Physics-G12.toc
+\g__fontspec_family_KhmerVanara_int=\count392
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1808,7 +2185,7 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'KhmerVanara(1)' created for font 'Khmer Vanara' with options
+. Font family 'KhmerVanara(0)' created for font 'Khmer Vanara' with options
 . [Scale = 0.8333333334,Script=Khmer].
 . 
 . This font family consists of the following NFSS series/shapes:
@@ -1816,36 +2193,60 @@ Package caption Info: End \AtBeginDocument code.
 . Vanara/OT:script=khmr;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-LaTeX Font Info:    Font shape `EU1/KhmerVanara(1)/m/n' will be
-(Font)              scaled to size 9.99994pt on input line 2.
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+LaTeX Font Info:    Font shape `EU1/KhmerVanara(0)/m/n' will be
+(Font)              scaled to size 11.99991pt on input line 4.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+npxmia on input line 2.
 
-(/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxmia.fd
-File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
-)
-LaTeX Font Info:    Try loading font information for U+npxsym on input line 2.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 4.
 
-(/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxsym.fd
-File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
-)
-LaTeX Font Info:    Try loading font information for U+npxsyc on input line 2.
 
-(/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxsyc.fd
-File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
-))
-\tf@toc=\write6
-\openout6 = `sample.toc'.
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 4.
 
-\g__fontspec_family_KhmerM2_int=\count327
+
+LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 4.
+
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+\g__fontspec_family_AbyssinicaSIL_int=\count393
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font Abyssinica SIL/BI (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font Abyssinica SIL/B (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font Abyssinica SIL/I (it probably doesn't exist).
+.................................................
+LaTeX Font Info:    Font shape `EU1/KhmerVanara(0)/m/n' will be
+(Font)              scaled to size 9.99994pt on input line 16.
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'AbyssinicaSIL(0)' created for font 'Abyssinica SIL' with
+. options [].
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.: <->"Abyssinica SIL/OT:"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+\g__fontspec_family_KhmerM2_int=\count394
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1873,14 +2274,13 @@ File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 
-
 LaTeX Font Warning: Font shape `EU1/KhmerM2(0)/m/it' undefined
-(Font)              using `EU1/KhmerM2(0)/m/n' instead on input line 5.
+(Font)              using `EU1/KhmerM2(0)/m/n' instead on input line 32.
 
 LaTeX Font Info:    Font shape `EU1/KhmerM2(0)/m/n' will be
-(Font)              scaled to size 9.99994pt on input line 5.
+(Font)              scaled to size 11.99991pt on input line 32.
 LaTeX Font Info:    Font shape `EU1/KhmerM2(0)/m/it' will be
-(Font)              scaled to size 9.99994pt on input line 5.
+(Font)              scaled to size 11.99991pt on input line 32.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1909,12 +2309,12 @@ LaTeX Font Info:    Font shape `EU1/KhmerM2(0)/m/it' will be
 .................................................
 
 LaTeX Font Warning: Font shape `EU1/KhmerM1(1)/m/it' undefined
-(Font)              using `EU1/KhmerM1(1)/m/n' instead on input line 5.
+(Font)              using `EU1/KhmerM1(1)/m/n' instead on input line 32.
 
 LaTeX Font Info:    Font shape `EU1/KhmerM1(1)/m/n' will be
-(Font)              scaled to size 9.99994pt on input line 5.
+(Font)              scaled to size 11.99991pt on input line 32.
 LaTeX Font Info:    Font shape `EU1/KhmerM1(1)/m/it' will be
-(Font)              scaled to size 9.99994pt on input line 5.
+(Font)              scaled to size 11.99991pt on input line 32.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
@@ -1923,7 +2323,10 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 
 
-]
+])
+\tf@toc=\write6
+\openout6 = `Physics-G12.toc'.
+
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1951,51 +2354,484 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `EU1/Angkor(1)/m/n' will be
-(Font)              scaled to size 9.12494pt on input line 5.
+(Font)              scaled to size 9.99994pt on input line 15.
 LaTeX Font Info:    Font shape `EU1/Angkor(1)/m/n' will be
-(Font)              scaled to size 7.49995pt on input line 5.
+(Font)              scaled to size 8.33328pt on input line 15.
 
 
 LaTeX Font Warning: Font shape `EU1/Angkor(1)/m/it' undefined
-(Font)              using `EU1/Angkor(1)/m/n' instead on input line 5.
+(Font)              using `EU1/Angkor(1)/m/n' instead on input line 15.
 
 LaTeX Font Info:    Font shape `EU1/Angkor(1)/m/it' will be
-(Font)              scaled to size 7.49995pt on input line 5.
-[2
-
-]
+(Font)              scaled to size 8.33328pt on input line 15.
+[2]
 មេរៀនទី ១.
 [1
 
-] [2]
-មេរៀនទី ២.
-[3
 
-] [4]
-មេរៀនទី ៣.
-[5
-
-] [6] [7
-
+] [2
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
- (./sample.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 73.
+មេរៀនទី ២.
+(./lessons/lesson3.tex [3] [4
+
+]
+មេរៀនទី ៣.
+LaTeX Font Info:    Font shape `EU1/KhmerM1(1)/m/n' will be
+(Font)              scaled to size 9.99994pt on input line 15.
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+\EU1/AntiochText(0)/m/n/12 ដែល អាច សង្ខេប យ៉ាង ងាយ បាន ដូច រូប ខាងក្រោម។
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+\EU1/AntiochText(0)/m/n/12 ដំណើរការ របស់ វា គឺ ដំបូង គេ ប្រើ ប្រាស់ ឥត ន្ធ នៈ ដ
+ើម្បី
+ []
+
+File: ./images/heat-engine.png Graphic file (type QTm)
+<use  "./images/heat-engine.png" >
+LaTeX Font Info:    Font shape `EU1/Angkor(1)/m/n' will be
+(Font)              scaled to size 9.12494pt on input line 36.
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+
+Overfull \hbox (74.0321pt too wide) in paragraph at lines 17--41
+[]$[]$ $[]$
+ []
+
+[5]
+Overfull \hbox (65.81856pt too wide) in paragraph at lines 53--87
+$[]$ $[]$ 
+ []
+
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+
+Underfull \hbox (badness 4254) in paragraph at lines 109--112
+\EU1/AntiochText(0)/m/it/12 តើមាន លក្ខណៈ អ្វី ដែល ម៉ា សុី នប្រើ កម្តៅ អាច មានប្
+រសិទ្ធភាព ឬ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
+\EU1/AntiochText(0)/m/n/12 ដើម្បី ឆ្លើយតប នឹង សំនួរ នេះ យើង ពិនិត្យមើល ម៉ា សុី 
+នប្រើ កម្តៅ
+ []
+
+File: ./images/Nicolas-Leonard-Sadi-Carnot.png Graphic file (type QTm)
+<use  "./images/Nicolas-Leonard-Sadi-Carnot.png" >
+Overfull \hbox (53.64636pt too wide) in paragraph at lines 108--121
+[]$[]$ $[]$ 
+ []
+
+[6]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+
+Overfull \hbox (56.40729pt too wide) in paragraph at lines 122--168
+[]$ $[]$ 
+ []
+
+[7]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+File: ./images/first-stroke.jpg Graphic file (type QTm)
+ <use  "./images/first-stroke.jpg" >
+File: ./images/second-stroke.png Graphic file (type QTm)
+ <use  "./images/second-stroke.png" >
+File: ./images/thirth-stroke.png Graphic file (type QTm)
+
+<use  "./images/thirth-stroke.png" >
+File: ./images/fourth-stroke.png Graphic file (type QTm)
+ <use  "./images/fourth-stroke.png" >
+[8]
+Overfull \hbox (2.35974pt too wide) in paragraph at lines 238--239
+[]\EU1/AntiochText(0)/m/n/12 វគ្គទី២(បណ្ណែន): ស៊ូ ប៉ាប់ ទាំងពីរ បិទ ជិត ពិ ស្តុ
+ ង ផ្លាស់ទី បណ្ណែន ខ្យល់ ធ្វើឲ្យ សម្ពាធ ខ្យល់ កើនឡើង តាម លំ នាំ អុី សូ ទែម។ 
+ []
+
+
+Overfull \hbox (15.84607pt too wide) in paragraph at lines 245--246
+[]\EU1/AntiochText(0)/m/n/12 វគ្គទី១(បណ្ណែន និង បន្ទុះ): ពិ ស្តុ ង ផ្លាស់ទី ឡើង
+លើ បិទ រន្ធ បញ្ចេញ ល្យាយ ចំហាយ សាំង-ខ្យល់ មួយ ភាគ ត្រូវ បាន បណ្ណែន។
+ []
+
+[9] [10]
+LaTeX Font Info:    Font shape `EU1/KhmerM1(1)/m/n' will be
+(Font)              scaled to size 14.3999pt on input line 335.
+ [11]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+
+Overfull \hbox (21.61786pt too wide) in paragraph at lines 368--369
+[]\EU1/AntiochText(0)/m/n/12 គណនា កម្មន្ត អតិបរមា ដែល ម៉ា សុី នកា ក ណូ មួយ អាចប
+ ង្កើត ឡើង ពេល វាទ ទួល កម្តៅ $\OT1/cmr/m/n/12 1\OML/npxmi/m/it/12 kcal$ \EU1/An
+tiochText(0)/m/n/12 បើ វា ស្រូប កម្តៅ នៅ សីតុណ្ហភាព
+ []
+
+[12] [13]
+
+LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 454.
+
+[14]
+Overfull \hbox (21.35954pt too wide) in paragraph at lines 454--456
+[]\EU1/AntiochText(0)/m/n/12 ម៉ា សុី នកា ណូ មួយ ប្រើ ចំហាយទឹក ក្តៅ $\OT1/cmr/m/
+n/12 100[]\OML/npxmi/m/it/12 C$ \EU1/AntiochText(0)/m/n/12 ដែល ជា ធុង ក្តៅ។ រី 
+ឯ ធុង ត្រជាក់ គឺជា មជ្ឈដ្ឋាន ខាងក្រៅ ដែល មាន សីតុណ្ហភាព
+ []
+
+
+Overfull \hbox (3.28201pt too wide) in paragraph at lines 466--468
+[]\EU1/AntiochText(0)/m/n/12 សុី ឡាំង ច្រើន របស់ ម៉ា សុីន សាំង យន្តហោះ មួយ ដំណើ
+រការ ដោយ ល្បឿន $\OT1/cmr/m/n/12 2500[]$ \EU1/AntiochText(0)/m/n/12 ដោយ ទទួល ថាម
+ពល កម្តៅ $\OT1/cmr/m/n/12 7\OML/npxmi/m/it/12 :\OT1/cmr/m/n/12 89 \OMS/npxsy/m/
+n/12 ^^B
+ []
+
+
+Overfull \hbox (15.17091pt too wide) in paragraph at lines 473--475
+[]\EU1/AntiochText(0)/m/n/12 ម៉ា សុី នកា ណូ មួយ ផលិត អានុភាព បានការ $\OT1/cmr/m
+/n/12 150\OML/npxmi/m/it/12 kW$\EU1/AntiochText(0)/m/n/12 ។ ម៉ា សុី ននេះ បាន ដំ
+ណើរការ រវាង សីតុណ្ហភាព ពីរ គឺ $\OT1/cmr/m/n/12 20[]\OML/npxmi/m/it/12 C$ \EU1/A
+ntiochText(0)/m/n/12 និង $\OT1/cmr/m/n/12 500[]\OML/npxmi/m/it/12 C$\EU1/Antioc
+hText(0)/m/n/12 ។ 
+ []
+
+[15]
+Overfull \hbox (14.13492pt too wide) in paragraph at lines 495--496
+\EU1/AntiochText(0)/m/n/12 តួ(ដង)កំា ភ្លើង ស្រូប ថាមពល ទាំងអស់ ដែល បញ្ចេញ និង ក
+ើនឡើង សីតុណ្ហភាព ស្មើ សាច់ ក្នុងរយៈ ពេល ខ្លឺ មុន ពេល បាត់បង់
+ []
+
+
+Overfull \hbox (10.37035pt too wide) in paragraph at lines 503--504
+[]\EU1/AntiochText(0)/m/n/12 ប្រសិនបើ សីតុណ្ហភាព ធុង ត្រជាក់ ស្មើនឹង $\OT1/cmr/
+m/n/12 20[]\OML/npxmi/m/it/12 C$ \EU1/AntiochText(0)/m/n/12 តើ សីតុណ្ហភាព ដែល ន
+ៅ ធុង ដែល មាន សីតុណ្ហភាព ខ្ពស់ ស្មើ ប៉ុន្មាន? 
+ []
+
+
+Overfull \hbox (0.90182pt too wide) in paragraph at lines 508--510
+[]\EU1/AntiochText(0)/m/n/12 ទិន្នផល នៃ ម៉ា សុី នពិ ត $\OT1/cmr/m/n/12 20%$ \EU
+1/AntiochText(0)/m/n/12 គឺ ប្រើ ដើម្បី បង្កើន ល្បឿន របស់ រថភ្លើង មួយ ចេញពី ស្ងៀ
+មទៅ ល្បឿន ប្រហែល $\OT1/cmr/m/n/12 5\OML/npxmi/m/it/12 m=s$\EU1/AntiochText(0)/m
+/n/12 ។ យើង
+ []
+
+
+Overfull \hbox (5.09229pt too wide) in paragraph at lines 512--513
+\EU1/AntiochText(0)/m/n/12 តើ កំណើន សីតុណ្ហភាព ទឹក ស្មើនឹង ប៉ុន្មាន? គេ ឲ្យ កម្
+តៅ ម៉ាស ទឹក $\OML/npxmi/m/it/12 C \U/npxmia/m/it/12 5 \OT1/cmr/m/n/12 4186\OML/
+npxmi/m/it/12 J=kg[]C$\EU1/AntiochText(0)/m/n/12 ។ ម៉ាសមាឌ ទឹក $\OML/npxmi/m/it
+/12 ^^Z \U/npxmia/m/it/12 5 \OT1/cmr/m/n/12 10[]\OML/npxmi/m/it/12 kg=m[]$\EU1/
+AntiochText(0)/m/n/12 ។ 
+ []
+
+[16]
+Overfull \hbox (6.17839pt too wide) in paragraph at lines 515--516
+[]\EU1/AntiochText(0)/m/n/12 ម៉ា សុី នកា ណូ មួយ មាន សីតុណ្ហភាព ធុង ត្រជាក់ $\OT
+1/cmr/m/n/12 17[]\OML/npxmi/m/it/12 C$ \EU1/AntiochText(0)/m/n/12 និង មាន ទិន្ន
+ផល $\OT1/cmr/m/n/12 40%$\EU1/AntiochText(0)/m/n/12 ។ តើ សីតុណ្ហភាព ធុង ក្តៅ កើន
+ ប៉ុន្មាន ដើម្បីឲ្យ
+ []
+
+) (./lessons/lesson4.tex [17] [18
+
+]
+មេរៀនទី ៤.
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+
+LaTeX Font Warning: Font shape `EU1/AbyssinicaSIL(0)/bx/n' undefined
+(Font)              using `EU1/AbyssinicaSIL(0)/m/n' instead on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fontspec' on input line 11.
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 13--14
+[]\EU1/AntiochText(0)/m/n/12 កាលណា រលក ពីរ ឬ ច្រើន ដាល ឆ្លងកាត់ មជ្ឈដ្ឋាន តែមួយ
+ បម្លាស់ទី សរុប នៃ រាល់ ចំណុច ណាក៏ដោយ របស់ រលក
+ []
+
+) (./lessons/lesson5.tex [19] [20
+
+]
+មេរៀនទី ៥.
+) (./lessons/lesson6.tex [21] [22
+
+]
+មេរៀនទី ៦.
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+
+Underfull \hbox (badness 1867) in paragraph at lines 9--10
+[][]\EU1/KhmerM1(1)/m/n/12 មេដែក សិប្ប និមិត្ត មាន៣ សណ្ឋាន សំ ខាន់ ៗ គឺៈ[] \EU1
+/AntiochText(0)/m/n/12 ម្ជុល មេដែក, របារ
+ []
+
+File: ./images/magnetic-need.png Graphic file (type QTm)
+<use  "./images/magnetic-need.png" >
+File: ./images/magnetic-bar.png Graphic file (type QTm)
+ <use  "./images/magnetic-bar.png" >
+File: ./images/horse-magnetic-bar.png Graphic file (type QTm)
+
+<use  "./images/horse-magnetic-bar.png" >
+File: ./images/magetic-bar.png Graphic file (type QTm)
+ <use  "./images/magetic-bar.png" >
+Overfull \hbox (104.94897pt too wide) in paragraph at lines 5--45
+[]$[]$ $[]$ 
+ []
+
+File: ./images/earth.png Graphic file (type QTm)
+<use  "./images/earth.png" >
+File: ./images/earth.png Graphic file (type QTm)
+ <use  "./images/earth.png" >
+Overfull \hbox (2.34375pt too wide) in paragraph at lines 58--72
+[]$[]$ $[]$ 
+ []
+
+File: ./images/line-current.png Graphic file (type QTm)
+<use  "./images/line-current.png" > [23]
+Overfull \hbox (13.23122pt too wide) in paragraph at lines 87--88
+[]\EU1/AntiochText(0)/m/n/12 ទិស ដៅៈ កំណត់ តាម វិធាន កណ្តាប់ ដៃស្តាំ(ដៃស្តាំ ក្
+តោប ខ្សែ យ៉ាងណា ឲ្យ មេដៃ កន្ធែក ចង្អុល ទិសដៅ ចរន្ត ហើយ ម្រាម ទាំងបួន
+ []
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 94.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 94.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 94.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 94.
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 108--109
+[]\EU1/AntiochText(0)/m/n/12 ចូរ គូស វ៉ិចទ័រ ដែនម៉ាញេទិច ត្រង់ ចំណុច $\OML/npxm
+i/m/it/12 M[]$ \EU1/AntiochText(0)/m/n/12 បង្កើត ដោយ ខ្សែចម្លង ត្រង់នោះ។ រួច គណ
+នា តម្លៃ
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 109--111
+[]\EU1/AntiochText(0)/m/n/12 ចូរ គូស វ៉ិចទ័រ ដែនម៉ាញេទិច ត្រង់ ចំណុច $\OML/npxm
+i/m/it/12 M[]$ \EU1/AntiochText(0)/m/n/12 បង្កើត ដោយ ខ្សែចម្លង ត្រង់នោះ។ រួច គណ
+នា តម្លៃ
+ []
+
+[24]
+File: ./images/circle.png Graphic file (type QTm)
+ <use  "./images/circle.png" >
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 159.
+
+[25]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fontspec' on input line 174.
+
+File: ./images/Helmholtz-Coil.jpg Graphic file (type QTm)
+<use  "./images/Helmholtz-Coil.jpg" >
+File: ./images/helmholtz.png Graphic file (type QTm)
+ <use  "./images/helmholtz.png" >
+Overfull \hbox (2.34375pt too wide) in paragraph at lines 176--194
+[]$[]$ $[]$ 
+ []
+
+[26]
+File: ./images/solenoid.png Graphic file (type QTm)
+ <use  "./images/solenoid.png" >
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Abyssinica SIL does not contain any OpenType `Script' information.
+.................................................
+ [27]
+File: ./images/solenoid-1.png Graphic file (type QTm)
+ <use  "./images/solenoid-1.png" >
+File: ./images/solenoid-1.png Graphic file (type QTm)
+
+<use  "./images/solenoid-1.png" >
+Overfull \hbox (2.34375pt too wide) in paragraph at lines 242--262
+[]$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 274.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 274.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 274.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 274.
+
+
+Overfull \hbox (7.82242pt too wide) in paragraph at lines 274--275
+[]\EU1/AntiochText(0)/m/n/12 ខ្សែចម្លង ចំនួន ប្រាំ ត្រូវ បាន គេ វេញ បញ្ចូល គ្នា
+ បង្កើត បាន ជា ខ្សែកាប តែមួយ។ ចរន្ត ឆ្លងកាត់ ខ្សែចម្លង ទាំង ប្រាំ នោះ មានតម្លៃ
+ []
+
+[28]
+Overfull \hbox (8.3747pt too wide) in paragraph at lines 277--278
+[]\EU1/AntiochText(0)/m/n/12 សូ លេ ណូ អ៊ី ត មួយ មាន ប្រវែង $\OT1/cmr/m/n/12 28[
+]$ \EU1/AntiochText(0)/m/n/12 ហើយ មាន ចំ នួន ស្ពៀ សរុប $\OML/npxmi/m/it/12 N$\E
+U1/AntiochText(0)/m/n/12 ។ កាលណា វា ឆ្លងកាត់ ដោយ ចរន្ត $\OT1/cmr/m/n/12 8\OML/n
+pxmi/m/it/12 :\OT1/cmr/m/n/12 8[]$ \EU1/AntiochText(0)/m/n/12 ដែនម៉ាញេទិច
+ []
+
+
+Overfull \hbox (23.89973pt too wide) in paragraph at lines 283--299
+[]\EU1/AntiochText(0)/m/n/12 ខ្សែចម្លង ត្រង់ វែង បួន ដាក់ ស្របគ្នា ដែល មានមុខ ក
+ាត់ វា ស្ថិតនៅ លើកំពូល ការេ $\OML/npxmi/m/it/12 ABCD$ \EU1/AntiochText(0)/m/n/1
+2 មាន រង្វាស់ ជ្រុង នី មួយ ៗ ស្មើ $\OT1/cmr/m/n/12 0\OML/npxmi/m/it/12 :\OT1/cm
+r/m/n/12 200[]$\EU1/AntiochText(0)/m/n/12 ។
+ []
+
+) [29]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
+ (./Physics-G12.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 27.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 27.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 3.00348pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46361 strings out of 493638
- 937030 string characters out of 6146797
- 1060442 words of memory out of 5000000
- 48999 multiletter control sequences out of 15000+600000
- 15322 words of font info for 82 fonts, out of 8000000 for 9000
+ 51722 strings out of 493638
+ 1083270 string characters out of 6146797
+ 1204466 words of memory out of 5000000
+ 54197 multiletter control sequences out of 15000+600000
+ 63698 words of font info for 250 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 65i,9n,95p,10452b,1211s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,14n,95p,10461b,1371s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sample.pdf (9 pages).
+Output written on Physics-G12.pdf (31 pages).

@@ -1,0 +1,43 @@
+\contentsline {chapter}{\numberline {១}ទ្រឹស្តីស៊ីនេទិចនៃឧស្ម័នបរិសុទ្ធ}{១}{chapter.1}
+\contentsline {chapter}{\numberline {២}ច្បាប់ទីមួយ ទែម៉ូឌីណាមិច}{៣}{chapter.2}
+\contentsline {chapter}{\numberline {៣}ម៉ាសុីន}{៥}{chapter.3}
+\contentsline {section}{\numberline {១}លំនាំអាដ្យាបាទិច}{៥}{section.3.1}
+\contentsline {section}{\numberline {២}ម៉ាសុីនទ្រឹស្តី(ម៉ាសុីនកាណូ, ម៉ាសុីនអុីដេអាល់)}{៥}{section.3.2}
+\contentsline {subsection}{\numberline {២.១}ម៉ាសុីនកម្តៅ}{៥}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {២.២}សុិចកាណូ}{៧}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {២.៣}ម៉ាសុីនអុីដេអាល់}{៨}{subsection.3.2.3}
+\contentsline {section}{\numberline {៣}ម៉ាសុីនពិត(ម៉ាសុីនសាំង,ម៉ាសុីនម៉ាស៊ូត)}{៨}{section.3.3}
+\contentsline {subsection}{\numberline {៣.១}ម៉ាសុីនសាំងបន្ទុះបួនវគ្គ}{៨}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {៣.២}ម៉ាសុីនម៉ាស៊ូតបន្ទុះបួនវគ្គ}{៩}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {៣.៣}ម៉ាសុីនសាំងលាយបន្ទុះពីរវគ្គ}{៩}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {៣.៤}ទិន្នផលនៃម៉ាសុីនកម្តៅ}{៩}{subsection.3.3.4}
+\contentsline {section}{\numberline {៤}សំណួរ លំហាត់អនុវត្តន៍ និងកិច្ចការផ្ទះ}{១២}{section.3.4}
+\contentsline {chapter}{\numberline {៤}គោលការណ៍តម្រួតនៃរលក និងរលកជញ្រ្ជំ}{១៩}{chapter.4}
+\contentsline {section}{\numberline {១}គោលការណ៍តម្រួតនៃរលក{\fontspec {Abyssinica SIL}\selectfont (Superposition Principle)}}{១៩}{section.4.1}
+\contentsline {subsection}{\numberline {១.១}សមីការចលនាស៊ីនុយសូអុីនៃរលក(ត្រង់ប្រភព)}{១៩}{subsection.4.1.1}
+\contentsline {section}{\numberline {២}សំណួរ លំហាត់អនុវត្តន៍ និងកិច្ចការផ្ទះ}{១៩}{section.4.2}
+\contentsline {chapter}{\numberline {៥}អាំងទែផេរ៉ង់ និងឌីប្រាក់ស្យុង}{២១}{chapter.5}
+\contentsline {section}{\numberline {១}អាំងទែផេរ៉ង់}{២១}{section.5.1}
+\contentsline {subsection}{\numberline {១.១}អាំងទែផេរ៉ង់មេកានិច}{២១}{subsection.5.1.1}
+\contentsline {chapter}{\numberline {៦}ដែន និងកម្លាំងម៉ាញេទិច}{២៣}{chapter.6}
+\contentsline {section}{\numberline {១}មេដែក និងដែនម៉ាញេទិច}{២៣}{section.6.1}
+\contentsline {subsection}{\numberline {១.១}មេដែក}{២៣}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {១.២}អន្តរកម្មម៉ាញេទិច}{២៣}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {១.៣}ដែនម៉ាញេទិចនៃមេដែក}{២៣}{subsection.6.1.3}
+\contentsline {section}{\numberline {២}ដែនម៉ាញេទិចនៃផែនដី}{២៣}{section.6.2}
+\contentsline {section}{\numberline {៣}ដែនម៉ាញេទិចនៃចរន្តអគ្គិសនី}{២៤}{section.6.3}
+\contentsline {subsection}{\numberline {៣.១}ដែននៃចរន្តត្រង់}{២៤}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {៣.២}ដែននៃចរន្តវង់}{២៥}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {៣.៣}បូប៊ីនហ៊ឹមហ៊ុល{\fontspec {Abyssinica SIL}\selectfont (Helmholtz)}}{២៦}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {៣.៤}ដែនម៉ាញេទិចនៃសូលេណូអ៊ីត ឬបូប៊ីនវែង}{២៧}{subsection.6.3.4}
+\contentsline {section}{\numberline {៤}អំពើនៃដែនម៉ាញេទិចលើចរន្តអគ្គិសនី}{២៧}{section.6.4}
+\contentsline {subsection}{\numberline {៤.១}ពិសោធន៍}{២៧}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {៤.២}លក្ខណៈសម្គាល់នៃកម្លាំងអេឡិចត្រូម៉ាញេទិច}{២៧}{subsection.6.4.2}
+\contentsline {section}{\numberline {៥}អំពើទៅវិញទៅមករវាងចរន្តត្រង់ពីរ}{២៧}{section.6.5}
+\contentsline {subsection}{\numberline {៥.១}ពិសោធន៍}{២៧}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {៥.២}គណនាកម្លាំងដែលមានអំពើលើមួយភាគនៃខ្សែចម្លង}{២៧}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {៥.៣}និយមន័យតាមច្បាប់អំពែ}{២៧}{subsection.6.5.3}
+\contentsline {section}{\numberline {៦}ចលនាផង់ផ្ទុកបន្ទុកអគ្គិសនីក្នុងដែនម៉ាញេទិចឯកសណ្ឋាន}{២៧}{section.6.6}
+\contentsline {subsection}{\numberline {៦.១}កម្លាំងម៉ាញេទិច}{២៧}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {៦.២}លំងាកនៃផង់ផ្ទុកបន្ទុកអគ្គិសនីដោយដែនម៉ាញេទិចឯកសណ្ឋាន}{២៨}{subsection.6.6.2}
+\contentsline {section}{\numberline {៧}សំណួរ លំហាត់អនុវត្តន៍ និងកិច្ចការផ្ទះ}{២៨}{section.6.7}

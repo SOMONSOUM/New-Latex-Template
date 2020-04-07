@@ -1,0 +1,27 @@
+\documentclass[12pt,a4paper]{classes/fancy}
+\usepackage{siunitx}
+\usepackage[version=4]{mhchem}
+\usepackage{tikz}
+\usepackage{pifont}
+\usepackage{graphicx}
+\graphicspath{{./images/}}
+\usetikzlibrary{shadings,shapes.geometric,calc, patterns, angles, quotes, arrows.meta, shapes, decorations.pathmorphing, decorations.shapes, decorations.text, decorations.markings,shadows}
+\pgfdeclareverticalshading{heat}{100bp}{%
+	color(0bp)=(white);   color(25bp)=(white); color(30bp)=(cyan!50); 
+	color(70bp)=(orange!70); color(75bp)=(white);  color(100bp)=(white)}
+\begin{document}
+    \frontmatter\pagenumbering{alpkh}
+    \tableofcontents
+    \mainmatter\pagenumbering{khmer}
+    \chapter{ទ្រឹស្តីស៊ីនេទិចនៃឧស្ម័នបរិសុទ្ធ}
+    \chapter{ច្បាប់ទីមួយ ទែម៉ូឌីណាមិច}
+    \input{lessons/lesson3.tex}
+    \input{lessons/lesson4.tex}
+    \input{lessons/lesson5.tex}
+    \input{lessons/lesson6.tex}
+%    \backmatter
+%    \begin{thebibliography}{9}
+%    	\bibitem{Moeys} សៀវភៅរូបវិទ្យាថ្នាក់ទី១២, ក្រសួងអប់រំយុវជន និងកីឡា, ២០១៥
+%        \bibitem{somon}ស៊ុំ សំអុន, កម្រងលំហាត់រូបវិទ្យាថ្នាក់ទី១២, ២០២០
+%    \end{thebibliography}
+\end{document}

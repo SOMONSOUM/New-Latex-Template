@@ -16,7 +16,7 @@
 \RequirePackage{newpxmath}
 % language
 \RequirePackage[no-math]{fontspec}% no math font
-\setmainfont[Ligatures=TeX,AutoFakeBold=0.5,AutoFakeSlant=0.25]{Khmer Vanara}% roman font
+\setmainfont[Ligatures=TeX,AutoFakeBold=0.5,AutoFakeSlant=0.25]{Antioch Text}% roman font
 \setsansfont[Ligatures=TeX,AutoFakeBold=0,AutoFakeSlant=0.25]{Khmer M1}% sans serif font
 \setmonofont[Ligatures=TeX,AutoFakeBold=0.5,AutoFakeSlant=0.25]{Angkor}% typewriter font
 \XeTeXlinebreaklocale "km"% line break rule
@@ -29,7 +29,8 @@
 \newcommand{\kbk}{\fontspec[Scale = 0.8333333334, Script=Khmer]{Khmer OS Bokor}\selectfont}
 \newcommand{\kb}{\fontspec[Scale = 0.8333333334, Script=Khmer]{Khmer OS Battambang}\selectfont}
 \newcommand{\mc}{\fontspec{Monotype Corsiva}\selectfont}
-\newcommand{\en}{\fontspec{Times New Roman}\selectfont}
+%\newcommand{\en}{\fontspec{Times New Roman}\selectfont}
+\newcommand{\en}{\fontspec{Abyssinica SIL}\selectfont}
 \newcommand{\enb}{\fontspec[Script=Khmer]{Quicksand Medium}}
 % khmer number
 \def\khmer#1{\expandafter\@khmer\csname c@#1\endcsname}
@@ -676,4 +677,5 @@
 %\SetWatermarkFontSize{10pt}
 %\SetWatermarkText{}
 %
+
 \endinput
